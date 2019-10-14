@@ -28,5 +28,10 @@ namespace WindowsFormsGIT
             MessageBox.Show("test");
             MessageBox.Show("hhhhh nnntest");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            messaagebox.show("");
+        }
     }
 }
