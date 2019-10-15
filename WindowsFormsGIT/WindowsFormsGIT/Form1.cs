@@ -31,7 +31,8 @@ namespace WindowsFormsGIT
 
         private void button2_Click(object sender, EventArgs e)
         {
-            messaagebox.show("");
+            Form3 frm = new Form3();
+            frm.Show();
         }
     }
 }

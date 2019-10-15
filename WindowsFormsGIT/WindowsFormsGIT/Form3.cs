@@ -16,5 +16,26 @@ namespace WindowsFormsGIT
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            int Monto = 7500;
+            int c = 0;
+            int[] vector = new int[24];
+            int total = 0;
+            for (int i=0;i<24;i++)
+            {
+                vector[i] = Monto;
+                c++;
+                if (c ==6)
+                {
+                    Monto = Monto + Monto * 15 / 100;
+                    c = 0;
+                }
+                total = total + Monto;
+            }
+            string msj = "Total pagado " + Monto.ToString ();
+            MessageBox.Show(msj);
+        }
     }
 }
