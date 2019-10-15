@@ -19,8 +19,7 @@ namespace WindowsFormsGIT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("HOME disssss");
-            MessageBox.Show("HOME disssss");
+                      
         }
 
         private void Form1_Load(object sender, EventArgs e)
