@@ -21,6 +21,7 @@ namespace WindowsFormsGIT
         {
             int Monto = 7500;
             int c = 0;
+            int expensa = 4000;
             int[] vector = new int[24];
             int total = 0;
             for (int i=0;i<24;i++)
@@ -32,7 +33,7 @@ namespace WindowsFormsGIT
                     Monto = Monto + Monto * 15 / 100;
                     c = 0;
                 }
-                total = total + Monto;
+                total = total + Monto + expensa;
             }
             string msj = "Total pagado " + Monto.ToString ();
             MessageBox.Show(msj);

@@ -25,8 +25,8 @@ namespace WindowsFormsGIT
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("test");
-            MessageBox.Show("hhhhh nnntest");
+            
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
