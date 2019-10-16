@@ -8,5 +8,10 @@ namespace WindowsFormsGIT.Clases
 {
     public class Class1
     {
+        public void Suma(int a,int b)
+        {
+            int c = a + b;
+            return c;
+        }
     }
 }
