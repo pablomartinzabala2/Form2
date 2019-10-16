@@ -38,5 +38,10 @@ namespace WindowsFormsGIT
             string msj = "Total pagado " + Monto.ToString ();
             MessageBox.Show(msj);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
