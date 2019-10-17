@@ -29,7 +29,7 @@ namespace WindowsFormsGIT.Clases
         public int Division(int a,int b)
         {
             int c = a / b;
-            retun c;
+            return c;
         }
     }
 }
