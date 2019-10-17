@@ -19,5 +19,17 @@ namespace WindowsFormsGIT.Clases
             int c = a - b;
             return c;
         }
+
+        public int Producto(int a,int b)
+        {
+            int c = a * b;
+            return c;
+        }
+
+        public int Division(int a,int b)
+        {
+            int c = a / b;
+            retun c;
+        }
     }
 }
