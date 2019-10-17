@@ -39,6 +39,11 @@ namespace WindowsFormsGIT
             MessageBox.Show(msj);
         }
 
+        private int vectores()
+        {
+                        
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
 
