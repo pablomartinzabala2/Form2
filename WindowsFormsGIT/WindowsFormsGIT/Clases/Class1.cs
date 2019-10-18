@@ -32,22 +32,14 @@ namespace WindowsFormsGIT.Clases
             return c;
         }
 
-        public int[] Ordenar(int[] vec)
+        public int Cuadrado(int a)
         {
-            int aux = 0;
-            for (int i=0;i< vec.Length - 1;i++)
-            {
-                for (int j=i+1;j<vec.Length;j++)
-                {
-                    if (vec[j]>vec[i])
-                    {
-                        aux = vec[j];
-                        vec[j] = vec[i];
-                        vec[i] = aux; 
-                    }
-                }
-            }
-            return vec;
+            return (a * a);
+        }
+
+        public int Cubo(int a)
+        {
+            return (a * a * a);
         }
 
     }
